@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="./font/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>6witchh Hotel</title>
+</head>
+<body >
+  <nav class=" navbar navbar-expand-md navbar-light bg-light  sticky-top">
+    <a class="navbar-brand  font-weight-bolder era" href="index.html">6witchh Hotel</a>
+    <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarnav">
+      <span class="navbar-toggler-icon"></span> 
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarnav">
+      <ul class="navbar-nav px-5 ">
+        <li class="nav-item b-der">
+          <a href="room.html" class="nav-link font-weight-bolder  era mr-3 ">BOOK</a>
+        </li>
+        <li class="nav-item">
+          <a href="gallery.html" class="nav-link mr-3 text-dark font-weight-bolder">Gallery</a>
+        </li>
+         <li class="nav-item">
+          <a href="contact.html" class="nav-link font-weight-bolder">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <header class="container-fluid">
+    <div class="row d-flex align-items-center position-relative p-3" id="hero" >
+          <div class=" col-md-7 hero1 text-white pr-4 " id="hero1">
+            <h1 class=" text-white font-weight-bolder ">Home Away From Home</h1>
+            <h2 class=" text-white my-4">Lorem ipsum dolor sit amet, consecteturadipisicing elit. Accusamus cum perferendis  nam neque ea esse quis, impedit
+            </h2>
+            <a href="room.html" class="cta float-md-right btn px-4 py-4 mr-5  font-weight-bolder text-white text-center">Book a Room</a>
+          </div>
+          <div class=" col-md-5 hero2 d-flex justify-content-center justify-content-md-end">
+            <form id="myForm" action="" class=" w-100 mt-md-n1 mt-5 w-md-50  bg-white bg-opacity-25 p-3 border b-der">
+          <div class="form-group">
+            <label for="date-in" class=" era">Check-In</label>
+            <input type="date" class="form-control border border-danger" id="date-in">
+          </div>
+          <div class="form-group  ">
+            <label for="date-out" class=" era">Check-Out</label>
+            <input type="date" class="form-control border border-danger" id="date-out">
+          </div>
+          <div class="form-group ">
+            <label for="rooms"  class=" era">Room</label>
+            <select class="form-control border border-danger" id="rooms">
+              <option>1 Room</option>
+              <option>2 Rooms</option>
+              <option>3 Rooms</option>
+              <option>4 Rooms</option>
+              <option>5 Rooms</option>
+            </select>
+          </div>
+            <div class="form-group">
+              <label for="guest" class=" era">Guest</label>
+              <select class="form-control border border-danger" id="guest">
+                <option>1 Guest</option>
+                <option>2 Guests</option>
+                <option>3 Guests</option>
+                <option>4 Guests</option>
+    
+              </select>
+            </div>
+    
+          <button type="submit" class="btn btn-block p-1 btn-dark align-text-bottom font-weight-bold ">CHECK AVAILABILITY<i class=" p-2 fas fa-arrow-circle-right text-white fa-1x"></i></button>
+            </form>
+          </div>
+    
+        </div>
+  </header>
+
+  <!-- Main Section -->
+<main class="container">
+  <section id="home">
+    <div class="row">
+      <div class="col-md-6 offset-md-3 text-center">
+        <h2 class="text-center title  shadow-lg b-der p-0 bg-white  mt-4">Rooms</h2>
+      </div>
+    </div>
+    <div class="row pt-4">
+      <div class="col-md-4 mb-5 mb-md-0">
+        <div class="card">
+          <img src="./images/deluxe-carousel-2x.jpg" class=" card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <a href="room.html#deluxe"  target="_blank">
+              <h5 class="card-title font-weight-bold">Deluxe Rooms</h5>
+            </a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+            <a href="room-priview.html" class="btn  btn-primary btn-lg font-weight-bold">Check availability</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-5 mb-md-0">
+        <div class="card">
+          <img src="./images/executive-carousel-2x.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <a href="room.html#executive"  target="_blank">
+              <h5 class="card-title font-weight-bold">Executive Rooms</h5>
+            </a>
+            <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+            <a href="room-priview.html" class="btn  btn-primary btn-lg font-weight-bold">Check availability</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card p-0">
+          <img src="./images/presidential-carousel-2x.jpg" class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <a href="room.html#presidential" target="_blank">
+              <h5 class="card-title font-weight-bold">Presidential Rooms</h5>
+            </a>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.
+            </p>
+            <a href="room-priview.html" class="btn btn-primary btn-lg font-weight-bold ">Check availability</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mb-5 mt-n2 pt-5 d-flex justify-content-center ">
+      <a href="" class="btn btn-dark btn-lg font-weight-bold px-5 py-3">View All Rooms</a>
+    </div>
+  </section>
+  <!-- ABOUT SECTION -->
+  <section class="row my-5 d-flex align-items-center" id="about">
+    <div class="col-md-8 p-5 bg-white  h-50">
+      <div class="row">
+        <div class="col-sm-4 offset-sm-4 col-md-6 offset-md-3 mb-4">
+          <h2 class=" text-center title  shadow-lg b-der p-0 ">ABOUT</h2>
+        </div>
+      </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam neque ea esse quis,
+        impedit
+        velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam expedita nostrum! </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus corrupti illum dolorum aut quisquam!
+        Reprehenderit tempore voluptatem vel exercitationem. Nobis reprehenderit provident rem dolorum ipsam itaque.
+        Sunt eos aliquid assumenda fugiat quibusdam.</p>
+
+      <p>
+        Qui placeat ratione dolore quaerat pariatur molestiae, iure odio quam architecto nobis voluptatibus!velit
+        explicabo,
+        saepe in ab sed at totam
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis na</p>
+      <a href="" class="btn btn-dark  btn-lg font-weight-bold px-5 py-3">Read More...</a>
+    </div>
+    <div class="col-md-4">
+      <img src="./images/about.jpg" class="  w-100" alt="">
+    </div>
+  </section> <!-- End of section -->
+
+  <!-- Packages Section -->
+  <div class="row  py-1">
+    <div class="col-md-4 offset-md-4">
+      <h2 class="text-center title bg-light shadow-lg b-der p-0 ">Packages</h2>
+    </div>
+  </div>
+  <div class="row p-4 mb-5" id="roww">
+    <div class="col-md-4">
+      <div class="card p-2 border b-der">
+        <div class="card-body text-center m-n3">
+          <h5 class="card-title title text-dark">Jumbo Pack</h5>
+
+        </div>
+        <img src="./images/package-1.jpg" class="card-img-top" alt="...">
+
+        <ul class="list-group list-group-flush text-center bg-white b-der">
+          <li class="list-group-item mb-1">Bread and breakfast for 8 people</li>
+          <li class="list-group-item mb-1">Fruit Platter on arrival</li>
+          <li class="list-group-item mb-1">Special beach activities and board games</li>
+          <li class="list-group-item mb-1">Boat ride for 1 hour</li>
+          <li class="list-group-item mb-1">Horse ride for 15 minutes</li>
+          <li class="list-group-item mb-1">Free lunch & dinner</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="cta  btn px-3 btn-lg text-white py-2 font-weight-bolder">Book Package</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4  mt-5 mt-md-0">
+      <div class="card p-2  border b-der">
+        <div class="card-body text-center m-n3">
+          <h5 class="card-title title text-dark">Lone Ranger</h5>
+
+        </div>
+        <img src="./images/package-2.jpg" class="card-img-top" alt="...">
+
+        <ul class="list-group list-group-flush text-center bg-white b-der">
+          <li class="list-group-item mb-1">Bread and breakfast for 8 people</li>
+          <li class="list-group-item mb-1">Fruit Platter on arrival</li>
+          <li class="list-group-item mb-1">Special beach activities and board games</li>
+          <li class="list-group-item mb-1">Boat ride for 1 hour</li>
+          <li class="list-group-item mb-1">Horse ride for 15 minutes</li>
+          <li class="list-group-item mb-1">Free lunch & dinner</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="cta  btn px-3 btn-lg text-white py-2 font-weight-bolder ">Book Package</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 mt-5 mt-md-0">
+      <div class="card p-2 border b-der">
+        <div class="card-body text-center m-n3">
+          <h5 class="card-title title text-dark">Trio Plan</h5>
+
+        </div>
+        <img src="./images/package-3.jpg" class="card-img-top img-fluid" alt="...">
+
+        <ul class="list-group list-group-flush text-center bg-white b-der">
+          <li class="list-group-item mb-1">Bread and breakfast for 8 people</li>
+          <li class="list-group-item mb-1">Fruit Platter on arrival</li>
+          <li class="list-group-item mb-1">Special beach activities and board games</li>
+          <li class="list-group-item mb-1">Boat ride for 1 hour</li>
+          <li class="list-group-item mb-1">Horse ride for 15 minutes</li>
+          <li class="list-group-item mb-1">Free lunch & dinner</li>
+        </ul>
+        <div class="card-body text-center">
+          <a href="#" class="cta  btn px-3 btn-lg text-white py-2 font-weight-bolder text">Book Package</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Facilities Section -->
+  <div class="container bg-dark py-4">
+  <div class="row mb-3">
+    <div class="col-md-4 offset-md-4">
+      <h2 class="text-center title bg-white shadow-lg b-der p-0 ">Facilities</h2>
+    </div>
+    <p  class=" text-center px-5 font-weight-bold text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam neque ea esse quis, impedit
+    velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam</p>
+  </div>
+  <div class="row  row-cols-1 row-cols-sm-2 row-cols-md-3">
+    <div class="col mb-4">
+      <div class="card ">
+        <img src="./images/facilities-1.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-white">
+          <h5 class="card-title font-weight-bold text-center ">Jazz Restaurant</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="./images/facilities-2.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-white">
+          <h5 class="card-title font-weight-bold text-center">Open Classic Restaurant</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card ">
+        <img src="./images/facilities-3.jpg" class="card-img-top" alt="...">
+        <div class=" bg-white card-body">
+          <h5 class="card-title font-weight-bold text-center">Beach Side Dine</h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4 ">
+      <div class="card">
+        <img src="./images/facilities-4.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-white">
+          <h5 class="card-title font-weight-bold text-center">Cocktail Bars</h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="./images/facilities-5.jpg" class="card-img-top" alt="...">
+        <div class="card-body bg-white">
+          <h5 class="card-title font-weight-bold text-center">Indoor Bar</h5>
+
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4 ">
+      <div class="card">
+        <img src="./images/facilities-6.jpg" class="card-img-top" alt="...">
+        <div class="card-body text-center bg-white">
+          <h5 class="card-title font-weight-bold">Pool by the Beach</h5>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row mb-5 mt-n4 pt-5 d-flex justify-content-center ">
+    <a href="gallery.html" class="btn btn-dark btn-lg font-weight-bold px-5 py-3">Explore Our Hotel</a>
+  </div>
+
+  <!-- ACTIVITIES SECTION -->
+  <div class="row mb-5 ">
+    <div class="col-md-4 offset-md-4">
+      <h2 class="text-center title bg-white shadow-lg b-der p-0 ">Activities</h2>
+    </div>
+  </div>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 pb-5">
+    <div class="col mb-4">
+      <div class="card b-der">
+        <div class="card-body mb-n5">
+          <h5 class="card-title text-center font-weight-bold">Parties
+          </h5>
+        </div>
+        <img src="./images/package-1.jpg" class="card-img-top p-4" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam
+            neque
+            ea esse quis, impedit
+            velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam expedita nostrum! Qui placeat
+            ratione</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card b-der">
+        <div class="card-body mb-n5">
+          <h5 class="card-title text-center font-weight-bold">Wild Life Parks</h5>
+        </div>
+        <img src="./images/activities-wildlife-2x.jpg" class="card-img-top p-4" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam
+            neque ea esse quis, impedit
+            velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam expedita nostrum! Qui placeat
+            ratione</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card b-der">
+        <div class="card-body mb-n5">
+          <h5 class="card-title text-center font-weight-bold">Cocktail Parties</h5>
+        </div>
+        <img src="./images/activities-cocktails.jpg" class="card-img-top p-4" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam
+            neque
+            ea esse quis, impedit
+            velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam expedita nostrum! Qui placeat
+            ratione</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card b-der">
+        <div class="card-body mb-n5">
+          <h5 class="card-title text-center font-weight-bold">Linkops</h5>
+        </div>
+        <img src="./images/activities-linkops-2x.jpg" class="card-img-top p-4" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam
+            neque
+            ea esse quis, impedit
+            velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam expedita nostrum! Qui placeat
+            ratione</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card b-der">
+        <div class="card-body mb-n5">
+          <h5 class="card-title text-center font-weight-bold">Boat Sails</h5>
+        </div>
+        <img src="./images/package-2.jpg" class="card-img-top p-4" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam
+            neque
+            ea esse quis, impedit
+            velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam expedita nostrum! Qui placeat
+            ratione</p>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card b-der">
+        <div class="card-body mb-n5">
+          <h5 class="card-title text-center font-weight-bold">Site Seeing</h5>
+        </div>
+        <img src="./images/package-3.jpg" class="card-img-top p-4" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus cum perferendis nam
+            neque
+            ea esse quis, impedit
+            velit explicabo, saepe in ab sed at totam commodi repellendus aliquam numquam expedita nostrum! Qui placeat
+            ratione</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- Footer Section -->
+  <footer class="container-fluid">
+    <div class="row bg-light p-4">
+      <div class="col-sm-4 mt-3 mb-4 ">
+        <h5 class="text-danger">Lets Stay Connected</h5>
+        <div class="form-row form-group my-4 d-flex align-items-center">
+          <div class="col-md-8">
+            <input type="email" class="form-control" placeholder="Enter email address">
+          </div>
+          <div class="col-md-4 mt-4 mt-md-0">
+            <button type="submit" class="btn btn-lg btn-primary">Sign Up</button>
+          </div>
+        </div>
+        <h5 class="text-dark">Social Media Profiles</h5>
+        <div class="icons mt-4 d-flex">
+          <i class="fab fa-facebook fa-3x"></i>
+          <i class="fab fa-twitter fa-3x ml-4"></i>
+          <i class="fab fa-instagram fa-3x ml-4"></i>
+          <i class="fas fa-earth fa-3x ml-4"></i>
+        </div>
+      </div>
+      <div class="col-sm-4 border-bottom-1 mt-3">
+        <h5 class="text-danger">Our Setting</h5>
+        <p class="text-secondary text-sm-left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos reprehenderit error asperiores temporibus
+          aliquid magni? Et laborum earum architecto inventore accusamus quos praesentium tenetur nam soluta aspernatur
+          officia natus numquam sapie Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, magni!.</p>
+      </div>
+      <div class="col-sm-4 mt-3 ">
+        <h5 class="text-danger">Navigation</h5>
+        <ul class=" footer-link">
+          <li class=""><a href="blog.html">Blog</a></li>
+          <li ><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("date-out").valueAsDate = new Date();
+    document.getElementById("date-in").valueAsDate = new Date();
+  </script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>
